@@ -5,20 +5,7 @@ window.addEventListener('load', init);
 
 
 //available levels
-
-const levels={easy:5, medium:3, hard:2}
-
-
-
-
-
-	
-
-
-
-
-
-
+const levels={easy:6, medium:3, hard:2}
 
 
 //to change levels
@@ -190,7 +177,7 @@ function checkStatus()
 		score=-1;
 	}
 }
-//if there is a new highscore
+// new highscore ?
 function newHighScore()
 {
 	localStorage.setItem("highScore",score);
