@@ -58,7 +58,7 @@ const words=['hat',
 
 chooseLevel.addEventListener("change", changeLevel);
 
-function changeLevel()
+const changeLevel = () =>
 {
 	currentLevel=levels[chooseLevel.value];
 	seconds.innerHTML=currentLevel;
