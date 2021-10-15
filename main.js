@@ -107,6 +107,10 @@ function startMatch()
 		wordInput.value='';
 		score++;
 	}
+	else{
+		console.log("no match words");
+		console.log("next step!!");
+	}
 
 	//if score is -1, display 0
 	if(score==-1)
