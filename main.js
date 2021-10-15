@@ -109,6 +109,7 @@ function startMatch()
 	}
 	else{
 		console.log("no match words");
+		console.log("next step!!");
 	}
 
 	//if score is -1, display 0
